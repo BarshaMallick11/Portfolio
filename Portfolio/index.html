@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barsha's Portfolio</title>
+    <link rel="Stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'/> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+
+
+
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Barsha's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About me</a></li>
+                    <li><a href="#skills-container">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#contact">Contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div id="home">
+        <section class="firstSection">
+            <div class="leftSection"> 
+                <h1><b>Hi,I'm Barsha Mallick&#128075</b></h1>
+                <p>A passionate Full Stack Developer having an experience building web and Mobile applications with HTML/CSS/Javascript/nodejs/reactjs Native and some other cool libraries and frameworks
+                 </p>
+            </div>
+            <div class="rightSection">
+                <img src="photo.jpg" alt="">
+            </div>
+        </section>
+        </div>
+
+        <section class="secondSection">
+            <div id="about">
+                <div class="row">
+                    <div class="about-col-1">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>My name is Barsha Mallick.I am a enthusiastic web development
+                            student currently pursuing my MCA degree.As a fresher,I am eager
+                            to apply my knowledge of modern web technologies like HTML, CSS,JavaScript,and
+                            responsive design to create dynamic and user-friendly websites.
+                            I am constantly learning and growing,driven by my curiosity 
+                            to explore new trends and innovations in web development.
+                            My goal is transform creative ideas into functional digital
+                            solutions while building a strong foundation for a successful career in tech.
+                        </p>
+                    </div>
+                    <div class="about-col-2">
+                        <img src="photo4.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--<section class="thirdSection">
+            <div id="skills-container">
+                <h1>Skills</h1>
+                <div class="skills">
+                    <div class="skill-name">HTML</div>
+                    <div class="progress-bar">
+                        <div class="progress-bar-fill" style="width:80%";>80%</div>
+                    </div>
+                    
+                <div class="skills">
+                    <div class="skill-name">CSS</div>
+                    <div class="progress-bar">
+                        <div class="progress-bar-fill" style="width:80%";>80%</div>
+                    </div>
+                </div>
+                <div class="skills">
+                    <div class="skill-name">JavaScript</div>
+                    <div class="progress-bar">
+                        <div class="progress-bar-fill" style="width:60%";>60%</div>
+                    </div>
+                </div>
+                <div class="skills">
+                    <div class="skill-name">Python</div>
+                    <div class="progress-bar">
+                        <div class="progress-bar-fill" style="width:70%";>70%</div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>-->
+
+        <section class="thirdSection">
+            <div id="skills-container">
+                <h1>Skills</h1>
+                
+                <!-- HTML Skill -->
+                <div class="skills">
+                    <div class="skill-name">HTML</div>
+                    <div class="progress"style="height: 40px; width: 500px; border-radius: 20px;">
+                        <div class="progress-bar bg-success" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+                    </div>
+                </div>
+                
+                <!-- CSS Skill -->
+                <div class="skills">
+                    <div class="skill-name" >CSS</div>
+                    <div class="progress"style="height: 40px; width: 500px; border-radius: 20px;">
+                        <div class="progress-bar bg-success" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+                    </div>
+                </div>
+                
+                <!-- JavaScript Skill -->
+                <div class="skills">
+                    <div class="skill-name">JavaScript</div>
+                    <div class="progress" style="height: 40px; width: 500px; border-radius: 20px;">
+                        <div class="progress-bar bg-success" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">60%</div>
+                    </div>
+                </div>
+                
+                <!-- Python Skill -->
+                <div class="skills">
+                    <div class="skill-name">Python</div>
+                    <div class="progress" style="height: 40px; width: 500px; border-radius: 20px;">
+                        <div class="progress-bar bg-success" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        
+
+        <section class="fourthSection">
+            <div id="resume">
+                <h1>Resume</h1>
+                <img src="Resume page.png" alt="">
+                <a href="Resume(BM).pdf" class="download-button" download>Download</a>
+            </div>
+        </section>
+
+        <!--<section class="FifthSection">
+            <div id="contact">
+                <h1>Contact me</h1>
+                <form action="/submit" method="post">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    <br>
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Your Phone Number" required>
+                    <br>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    <br>
+                    <label for="message" name="message" placeholder="Your Message" required></label>
+                    <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                    <br>
+                    <button type="submit">Send</button>
+
+                </form>
+            </div>
+        </section>-->
+        <section class="FifthSection">
+            <div id="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="contact-left">
+                            <h1 class="sub-title">Contact Me</h1>
+                            <p><i class="fa fa-map-marker "></i> Soldevanahalli,Bengaluru,560107</p>
+                            <p><a href= "mailto:name@email.com" style="text-decoration: none;"><i class="fa fa-envelope "></i>&nbsp;barshamallick57@gmail.com</a></p>
+                            <p><i class="fa fa-phone "></i>&nbsp;9641648838</p>
+                            <div class="social-icons">
+                                <a href="#" class="fa fa-facebook" style="background-color:  #3B5998; color: white; border-radius: 5px;"></a>   
+                                <a href="#" class="fa fa-instagram" style="background: radial-gradient(circle at 20% 100%,
+                                #ffdb8b 0%,
+                                #ee653d 25%,
+                                #d42e81 50%,
+                                #a237b6 75%,
+                                #3e57bc 100%); border-radius: 7px; color:white ;"></a>  
+                                <a href="https://www.linkedin.com/in/barsha-mallick-998640266" class="fa fa-linkedin" style="color:#0077B5;"></a> 
+                            </div>
+                        </div>
+                        <div class="contact-right">
+                            <form>
+                                <input type="text" name="Name" placeholder="Your Name" required>
+                                <br>
+                                <input type="email" name="email" placeholder="Your Email" required>
+                                <br>
+                                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                                <br>
+                                <button type="submit">Send</button>
+                                <br>
+                                
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+<!----------------------------------------------------Projects---------------------------------------->
+        <section class="sixthSection">
+            <div id="projects">
+                <div class="project-name">
+                    <h1>Projects</h1>
+                    <p>Not updated yet</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+<!--------------------------------------------------------Footer--------------------------------------->
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Barsha's Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About me</li>
+                    <li>Skills</li>
+                    <li>Projects</li>
+                    <li>Resume</li>
+
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>About me</li>
+                    <li>Skills</li>
+                    <li>Projects</li>
+                    <li>Resume</li>
+                    
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About me</li>
+                    <li>Skills</li>
+                    <li>Projects</li>
+                    <li>Resume</li>
+                    
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169; barshasportfolio.com | All rights reserved
+        </div>
+    </footer>
+</body>
+</html>
